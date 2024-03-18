@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo Detalhado Bootstrap</title>
+  <!-- Incluindo o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Meu Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Bem-vindo ao Meu Site</h1>
+    <p class="lead">Um lugar para aprender e explorar.</p>
+    <hr class="my-4">
+    <p>Clique no botão abaixo para começar</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Explorar</a>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+    <!-- Row com 3 colunas -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Opção 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at quam eu nisl aliquam suscipit.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Opção 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at quam eu nisl aliquam suscipit.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Opção 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at quam eu nisl aliquam suscipit.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Formulário -->
+    <h2>Entre em Contato</h2>
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <hr>
+
+    <!-- Cards -->
+    <h2>Nossos Produtos</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Produto 1">
+          <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Produto 2">
+          <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <a href="#" class="btn btn-primary">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="
